@@ -1,0 +1,45 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  discogs_id: 1
+  masters: MyString
+  master: MyString
+  main_release: MyString
+  artists: MyString
+  artist: MyString
+  name: MyString
+  join: MyString
+  genres: MyString
+  genre: MyString
+  styles: MyString
+  style: MyString
+  year: 1
+  title: MyString
+  data_quality: MyString
+  videos: MyString
+  video: MyString
+  description: MyString
+  anv: MyString
+  notes: MyString
+
+two:
+  discogs_id: 1
+  masters: MyString
+  master: MyString
+  main_release: MyString
+  artists: MyString
+  artist: MyString
+  name: MyString
+  join: MyString
+  genres: MyString
+  genre: MyString
+  styles: MyString
+  style: MyString
+  year: 1
+  title: MyString
+  data_quality: MyString
+  videos: MyString
+  video: MyString
+  description: MyString
+  anv: MyString
+  notes: MyString

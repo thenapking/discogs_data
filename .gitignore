@@ -1,6 +1,9 @@
-backend/tmp
-backend/log
-backend/tmp/cache
+/backend/tmp/*
+!/backend/tmp/.keep
+backend/log/*
+!backend/log/.keep
+backend/storage/*
+!backend/storage/.keep
 backend/.env
 backend/.env.*
 backend/config/database.yml
