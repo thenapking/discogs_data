@@ -1,7 +1,10 @@
 class Api::StyleSummariesController < ApplicationController
 
   def index
-    @style_summaries = StyleSummary.all
+    @style_summaries = StyleSummary
+      .joins(:style)
+      .select('style_summaries.id, styles.name as name, style_summaries.year, style_summaries.count')
+      .order('styles.name, style_summaries.year')
     @style_summaries = @style_summaries.where(year: params[:year]) if params[:year]
       
     render json: @style_summaries

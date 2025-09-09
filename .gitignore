@@ -1,7 +1,7 @@
 /backend/tmp/*
 !/backend/tmp/.keep
-backend/log/*
-!backend/log/.keep
+/backend/log/*
+!/backend/log/.keep
 backend/storage/*
 !backend/storage/.keep
 backend/.env
