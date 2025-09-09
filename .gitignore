@@ -1,1 +1,7 @@
-backend/tmp/data
+backend/tmp
+backend/log
+backend/tmp/cache
+backend/.env
+backend/.env.*
+backend/config/database.yml
+.DS_Store
